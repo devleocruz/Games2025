@@ -136,7 +136,7 @@ const jogos = {
         titulo: "GTA VI",
         posicao: 1,
         linkYoutube: "https://www.youtube.com/embed/QdBZY2fkU-0?si=aKfIBCxDtdVHT1mz",
-        descricao: "Seria impossível não terminar essa lista com aquele que será, incontestavelmente, o maior lançamento de 2025. GTA VI chega depois de 12 anos de sucesso contínuo de seu antecessor, e considerando o padrão da Rockstar, é difícil não imaginar algo de imensa ambição. GTA V colocou a franquia em um patamar praticamente único na indústria, e a sequência tem tudo para mantê-la isolada no topo. - Breno Deolindo.",
+        descricao: "Seria impossível não terminar essa lista com aquele que será, incontestavelmente, o maior lançamento de 2025. GTA VI chega depois de 12 anos de sucesso contínuo de seu antecessor, e considerando o padrão da Rockstar, é difícil não imaginar algo de imensa ambição. GTA V colocou a franquia em um patamar praticamente único na indústria, e a sequência tem tudo para mantê-la isolada no topo.",
         linkMaisInformacoes: "https://www.rockstargames.com/br/VI"
     }
 };

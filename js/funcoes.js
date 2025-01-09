@@ -41,6 +41,7 @@ function criarCard(posicao, titulo, linkYoutube, descricao, linkMaisInformacoes)
     colunaCard.className = 'card m-5 col-12 col-md-8 col-lg-10 col-xl-8 bg-dark';
     colunaCard.style.maxWidth = '1200px';
     colunaCard.style.minHeight = '350px';
+    colunaCard.style.minWidth = '350px';
 
     // Criar o título do card
     const tituloCard = document.createElement('h3');
@@ -52,10 +53,10 @@ function criarCard(posicao, titulo, linkYoutube, descricao, linkMaisInformacoes)
     const corpoCard = document.createElement('div');
     corpoCard.className = 'card-body d-flex flex-column flex-lg-row align-items-center justify-content-center';
 
-    // Criar o iframe para incoporação de video do Yotube
+    // Criar o iframe para incorporação de video do Yotube
     const iframe = document.createElement('iframe');
     iframe.className = 'm-3 col-12 col-lg-8';
-    iframe.height = '360';
+    iframe.height = '400';
     iframe.width = '100%';
     iframe.src = linkYoutube;
     iframe.title = 'Player de vídeo do YouTube';
