@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Tendências 2025</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body fixed-top" data-bs-theme="dark">
+    <div class="container-fluid">
+        <div>
+            <a class="navbar-brand" href="#" onclick="carregarConteudo('home.html')" id="home">Home</a>
+            <a class="navbar-brand tamanho" href="#" onclick="carregarGames()">Games 2025</a>
+            <a class="navbar-brand tamanho" href="#" onclick="carregarConteudo('contato.html')">Contatos</a>
+        </div>
+    </div>
+</nav>
+
+<div id="conteudo"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('conteudo').innerHTML = carregarConteudo('home.html');
+    });
+</script>
+
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/funcoes.js"></script>
+<script src="js/dict_jogos.js"></script>
+
+<!-- Rodapé -->
+<footer class="footer">
+        <p>Todos os direitos reservados © 2025. Este site é dedicado aos gamers que estão ansiosos pelos lançamentos de jogos de 2025!</p>
+</footer>
+
+</body>
+</html>
